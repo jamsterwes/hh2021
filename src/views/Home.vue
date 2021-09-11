@@ -2,7 +2,7 @@
 </script>
 
 <template>
-    Welcome to home
+    Welcome to home  {{$route.query}}
 </template>
 
 <style>

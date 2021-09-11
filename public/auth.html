@@ -1,0 +1,13 @@
+<html>
+    <head></head>
+    <body>
+        <script>
+            // Handle auth token passing to firebase
+            const url = new URL(window.location.href);
+            alert(url.searchParams.get('code'));
+
+            // Redirect
+            window.location.replace("http://" + window.location.host + "/");
+        </script>
+    </body>
+</html>
